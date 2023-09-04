@@ -1,7 +1,7 @@
 // Import necessary modules
-const db = require('../config/dbconnection');
+const db = require('../config/db connection.js');
 const otpGenerator = require('otp-generator');
-const sendMail = require('../helpers/send_mail.js');
+const sendMail = require('../helpers/mail_sender.js');
 
 // Function to handle OTP resending
 const resend = (req, res) => {

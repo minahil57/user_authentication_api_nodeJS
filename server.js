@@ -2,12 +2,12 @@
 require("dotenv").config();
 
 // Import the database connection configuration
-require('./config/dbconnection');
+require('./config/db connection.js');
 
 // Import necessary modules
 const express = require('express');
 const bodyParser = require('body-parser'); // Middleware for parsing request bodies
-const userRouter = require('./routes/userRoute'); // Import the user router
+const userRouter = require('./routes/userroute.js'); // Import the user router
 
 // Create an Express application
 const app = express();

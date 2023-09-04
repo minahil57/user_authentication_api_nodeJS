@@ -1,7 +1,7 @@
 
-const db = require('../config/dbconnection');
+const db = require('../config/db connection.js');
 
-const sendMail = require('../helpers/send_mail.js');
+const sendMail = require('../helpers/mail_sender.js');
 const otpVerification = (req, res) => {
     try {
       const user_email = req.body.user_email;

@@ -5,10 +5,10 @@ const router = express.Router();
 
 // Import validation functions and controllers
 const { signUPValidation, loginValidation } = require('../helpers/validation');
-const registerController = require('../controllers/userController');
-const loginController = require('../controllers/userController');
-const verificationController = require('../controllers/userController');
-const resendotpController = require('../controllers/userController');
+const registerController = require('../controllers/registration_controller');
+const loginController = require('../controllers/login_controller');
+const verificationController = require('../controllers/otp_verfication');
+const resendotpController = require('../controllers/resend_otp');
 
 // Define routes and associate them with validation and controller functions
 

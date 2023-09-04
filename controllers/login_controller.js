@@ -1,7 +1,7 @@
 // Import necessary modules
 const { validationResult } = require('express-validator');
 const bcrypt = require('bcryptjs');
-const db = require('../config/dbconnection');
+const db = require('../config/db connection.js');
 
 // Function to handle user login
 const login = (req, res) => {
