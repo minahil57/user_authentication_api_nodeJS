@@ -4,7 +4,7 @@ Certainly, here's a brief description you can use when uploading your project to
 
 ---
 
-**Project Title:** User Registration and Login API
+**Project Title:** User Registration ,Login API, OTP Verification and Resend OTP API's 
 
 **Description:**
 This GitHub repository contains a Node.js-based API for user registration, login, and OTP (One-Time Password) handling. The API is built using Express.js and MySQL for the database. It provides endpoints for user registration, email verification, login, and OTP resending.
@@ -13,6 +13,7 @@ This GitHub repository contains a Node.js-based API for user registration, login
 - User registration with email verification
 - User login with password hashing and authentication
 - OTP (One-Time Password) generation and email delivery
+- Resend OTP
 - MySQL database integration
 - Express.js for routing and middleware
 - Error handling for various scenarios
